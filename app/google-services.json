@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "983517841504",
+    "project_id": "gymnasios",
+    "storage_bucket": "gymnasios.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983517841504:android:f057fa7254e4615a9a9b05",
+        "android_client_info": {
+          "package_name": "com.example.gymnasios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983517841504-n0nbmtm1l2sr1o60fmqtvenddpbla309.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gymnasios",
+            "certificate_hash": "a02e64423533ec041acb8e9465d6b8914d69555c"
+          }
+        },
+        {
+          "client_id": "983517841504-s1gopl19rus4aneukf387gqa954pev16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnbHc88HsXZzYNUYb4I63B-bTDBvL4Jfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983517841504-s1gopl19rus4aneukf387gqa954pev16.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

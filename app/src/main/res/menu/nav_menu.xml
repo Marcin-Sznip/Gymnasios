@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home_screen"
+        android:title="Home Screen"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/nav_street_workout"
+        android:title="Street Workout"
+        android:icon="@drawable/baseline_fitness_center_24"/>
+
+    <item
+        android:id="@+id/nav_walking"
+        android:title="Daily Steps"
+        android:icon="@drawable/ic_walk"/>
+
+        <item
+            android:id="@+id/nav_stopwatch"
+            android:title="Stopwatch"
+            android:icon="@drawable/baseline_timer_24"/>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Log out"
+        android:icon="@drawable/baseline_logout_24"/>
+    </group>
+
+</menu>

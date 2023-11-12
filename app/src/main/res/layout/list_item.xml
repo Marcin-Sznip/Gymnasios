@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/title_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sucha1"
+        app:shapeAppearanceOverlay="@style/roundedCorners" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/gradient_background" />
+
+    <TextView
+        android:id="@+id/gymheading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cityfit Wroclavia, Sucha 1"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:layout_gravity="bottom" />
+
+</FrameLayout>

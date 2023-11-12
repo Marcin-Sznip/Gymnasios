@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".AddWorkoutActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:background="@drawable/lavender_border">
+
+            <TextView
+                android:id="@+id/tvBackFromUpdateWorkout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:text="Back to main menu"
+                android:textColor="@color/lavender"
+                android:textSize="17dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Update your set"
+                android:textSize="30dp"
+                android:textAlignment="center"
+                android:textColor="@color/lavender"
+                android:layout_marginTop="30dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/updateExcerciseName"
+                android:background="@drawable/lavender_border"
+                android:layout_marginTop="10dp"
+                android:padding="16dp"
+                android:hint="Exercise"
+                android:gravity="center|center_vertical"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <EditText
+                    android:id="@+id/updateFirstSet"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="center|center_vertical"
+                    android:hint="Set"
+                    android:padding="16dp" />
+
+                <EditText
+                    android:id="@+id/updateFirstWeight"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="center|center_vertical"
+                    android:hint="Weight"
+                    android:padding="16dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <EditText
+                    android:id="@+id/updateSecondSet"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="center|center_vertical"
+                    android:hint="Set"
+                    android:padding="16dp" />
+
+                <EditText
+                    android:id="@+id/updateSecondWeight"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="center|center_vertical"
+                    android:hint="Weight"
+                    android:padding="16dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <EditText
+                    android:id="@+id/updateThirdSet"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="center|center_vertical"
+                    android:hint="Set"
+                    android:padding="16dp" />
+
+                <EditText
+                    android:id="@+id/updateThirdWeight"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="center|center_vertical"
+                    android:hint="Weight"
+                    android:padding="16dp"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="end">
+
+                <EditText
+                    android:id="@+id/updateFourthSet"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="center|center_vertical"
+                    android:hint="Set"
+                    android:padding="16dp" />
+
+                <EditText
+                    android:id="@+id/updateFourthWeight"
+                    android:layout_width="155dp"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="16dp"
+                    android:background="@drawable/lavender_border"
+                    android:gravity="center|center_vertical"
+                    android:hint="Weight"
+                    android:padding="16dp"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/updateButton"
+                android:layout_width="240dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Update"
+                app:cornerRadius="20dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
